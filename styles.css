@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(25,30,39);
+    font-family: Inter;
+}
+
+h1, h2, h3, p, a {
+    color: rgb(234,235,235);
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: white;
+    max-width: 450px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+
+.name, .pronouns {
+    color: black;
+}
+
+.insta-button {
+    height: 40px;
+    width: 350px;
+    background-color: black;
+    border: none;
+    border: 10px;
+    margin-top: 50px;
+
+}
+
+.role {
+    color: rgb(89, 172, 231);
+}
+
+.banner {
+    background-color: rgb(147,114,226);
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.desc-line {
+    background-color: black;
+    padding: 5px 0px;
+    border: 0;
+    width: 400px;
+}
