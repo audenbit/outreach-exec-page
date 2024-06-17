@@ -3,31 +3,87 @@ body {
     overflow-x: hidden;
     background-color: rgb(25,30,39);
     font-family: Inter;
+    line-height: 1.5;
+    text-align: center;
 }
 
-h1, h2, h3, p, a {
+
+.dept-exec-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+h1, h2, h3, p {
     color: rgb(234,235,235);
 }
 
-a {
-    text-decoration: none;
+.title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.intro {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(196,207,219);
+    margin-top: -20px;
+}
+
+.dept-name {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.desc-text {
+    margin: 0 10px;
+    font-weight: 350;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.pronouns {
+    font-size: 15px;
+    margin-top: -24px;
+    margin-bottom: -15px;
+    font-weight: 600;
+}
+
+.role {
+    color: rgb(89, 172, 231);
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .card {
     background-color: white;
-    max-width: 450px;
-    border-radius: 10px;
+    min-width: 300px;
+    max-width: 400px;
+    border-radius: 5px;
     padding-bottom: 20px;
     margin-top: 15px;
 }
 
-.name, .pronouns {
+.name, .pronouns, .desc-text {
     color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .insta-button {
+    border-radius: 5px;
+    font-size: 15px;
     height: 40px;
-    width: 350px;
+    min-width: 250px;
     background-color: black;
     border: none;
     border: 10px;
@@ -35,14 +91,10 @@ a {
 
 }
 
-.role {
-    color: rgb(89, 172, 231);
-}
-
 .banner {
     background-color: rgb(147,114,226);
     height: 100px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .desc-line {
